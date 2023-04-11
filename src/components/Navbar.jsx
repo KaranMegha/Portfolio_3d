@@ -96,6 +96,11 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className={`hover:text-white text-secondary text-[18px] font-medium cursor-pointer`}>
+            <a href="https://drive.google.com/file/d/1Nxo3H3kQRIBBGt5xAcsdVHs1UaQeDdzX/view?usp=sharing">
+            Resume
+            </a>
+          </li>
             </ul>
            
           </div>
